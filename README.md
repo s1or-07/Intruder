@@ -62,9 +62,9 @@ from pyintruder.core import RequestTemplate, AttackEngine, count_requests
 
 ## Interfaz
 
-**Pestaña 1 — Petición y ataque.** A la izquierda, el editor de la petición con coloreado de sintaxis HTTP y posiciones `§` resaltadas; arriba, Host / Puerto / HTTPS (botón *Auto*). A la derecha, un menú lateral con el tipo de ataque, la lista de payloads, las opciones (concurrencia, retardo, timeout, `Content-Length`) y *Grep – Match*.
+**Pestaña 1 - Petición y ataque.** A la izquierda, el editor de la petición con coloreado de sintaxis HTTP y posiciones `§` resaltadas; arriba, Host / Puerto / HTTPS (botón *Auto*). A la derecha, un menú lateral con el tipo de ataque, la lista de payloads, las opciones (concurrencia, retardo, timeout, `Content-Length`) y *Grep – Match*.
 
-**Pestaña 2 — Resultados.** Tabla ordenable por cualquier columna (las filas con coincidencia grep se resaltan) y, debajo, dos visores que muestran el *Request enviado* y el *Response recibido* completos al seleccionar una fila, con el código de estado coloreado por clase (2xx verde, 3xx azul, 4xx naranja, 5xx rojo).
+**Pestaña 2 - Resultados.** Tabla ordenable por cualquier columna (las filas con coincidencia grep se resaltan) y, debajo, dos visores que muestran el *Request enviado* y el *Response recibido* completos al seleccionar una fila, con el código de estado coloreado por clase (2xx verde, 3xx azul, 4xx naranja, 5xx rojo).
 
 ## Tipos de ataque
 

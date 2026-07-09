@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyintruder"
+version = "1.0.0"
+description = "Fuzzer de peticiones HTTP con interfaz grafica (inspirado en Burp Intruder)"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []   # Solo libreria estandar (tkinter incluido).
+
+[project.scripts]
+pyintruder = "pyintruder.gui:main"
+
+[tool.setuptools.packages.find]
+include = ["pyintruder*"]

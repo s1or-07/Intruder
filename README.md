@@ -2,7 +2,7 @@
 
 Fuzzer de peticiones HTTP con interfaz gráfica, inspirado en el módulo **Intruder** de Burp Suite. Toma una petición HTTP base, inserta payloads en posiciones marcadas con `§`, envía cada variante y recopila las respuestas para su análisis.
 
-> ⚠️ **Uso autorizado únicamente.** Empléalo solo sobre sistemas para los que tengas autorización (laboratorios propios, certificaciones/exámenes, bug bounty dentro de alcance). No me hago responsable del mal uso.
+> ⚠️ **Uso autorizado únicamente.** Empléalo solo sobre sistemas para los que tengas autorización (laboratorios propios, certificaciones/exámenes, bug bounty dentro de alcance). No me hago responsable chele.
 
 ## Requisitos
 
